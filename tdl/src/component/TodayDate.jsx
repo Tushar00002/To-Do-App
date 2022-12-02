@@ -42,7 +42,7 @@ function TodayDate()
    
 
    
-    <p class="w m-4 bg-gradient-to-r from-orange-500 to-orange-300 text-white font-bold text-xl  rounded-lg flex  items-center p-2 ">{wish}</p>
+
   
 
 
