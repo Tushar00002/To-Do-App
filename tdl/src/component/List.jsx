@@ -1,8 +1,8 @@
 import React from "react";
 import {useState} from 'react';
-import { FaPlus ,FaGenderless } from "react-icons/fa";
+import { FaPlus} from "react-icons/fa";
 import Task from "./Task";
-import {  AiFillDelete, AiFillPropertySafety} from "react-icons/ai";
+
 
 
 
@@ -11,7 +11,7 @@ import {  AiFillDelete, AiFillPropertySafety} from "react-icons/ai";
 
 function List()
 {
-   const [flag,setflag] = useState(false);
+   
 
     const [Items,setItems] = useState("");
 
@@ -121,7 +121,7 @@ function List()
                    </div>
                   
                 
-                <div></div>
+            
 
                 <div className={`Pending bg-gradient-to-r from-gray-200 via-gray-200 to-gray-200   ${toggle ? 'hidden' : ''}`}>
                   {task.map( (val,index) =>{

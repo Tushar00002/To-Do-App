@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import TodayDate from "./TodayDate";
 import Quotes from "./Quote";
 
@@ -16,18 +15,18 @@ function Top()
          
         <>
           <div className="Top bg-gradient-to-r from-cyan-500 to-blue-500 w-full h-20 mb-20 flex justify-between">
-            <div className="Date  flex justify-between  w-1/4 shadow-lg">
+            <div className="Date  flex justify-between items-center  shadow-lg">
                
                
                <TodayDate/>
                 
             </div>
 
-            <div className="Quote  w-1/2 shadow-lg flex justify-center items-center text-white text-lg font-bold">
+            <div className="Quote  w-1/2 shadow-lg flex justify-center items-center text-white font-bold lg:text-xl sm:text-lg">
                <p>{random}</p>
             </div>
 
-            <div className="Quote  w-1/4 shadow-lg flex justify-center items-center text-3xl text-white">
+            <div className="Quote  w-1/4 shadow-lg flex justify-center items-center  text-white lg:text-2xlsm:text-lg">
                <p className="font-bold bg-white text-blue-800 rounded-2xl p-2">To Do List</p>
             </div>
           </div>

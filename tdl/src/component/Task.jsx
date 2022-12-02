@@ -1,6 +1,6 @@
 import React from "react";
-import { FaPlus ,FaGenderless } from "react-icons/fa";
-import {  AiFillDelete} from "react-icons/ai";
+import {FaGenderless } from "react-icons/fa";
+import {AiFillDelete} from "react-icons/ai";
 
 function Task(props)
 {
